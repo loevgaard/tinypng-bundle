@@ -1,13 +1,12 @@
 <?php
-
-namespace Dandomain\ApiBundle\DependencyInjection;
+namespace Tinypng\Bundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
 
-class DandomainApiExtension extends Extension
+class TinypngExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
