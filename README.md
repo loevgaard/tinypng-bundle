@@ -1,2 +1,2 @@
-# tinypng-bundle
-A Symfony bundle for the TinyPNG/TinyJPG API
+# TinyPNG bundle for Symfony
+See https://github.com/tinify/tinify-php for usage.

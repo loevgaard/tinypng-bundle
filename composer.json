@@ -1,0 +1,23 @@
+{
+    "name": "loevgaard/tinypng-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle for the TinyPNG/TinyJPG API library",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joachim Løvgaard",
+            "email": "joachim@loevgaard.dk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/config": "^3.1",
+        "symfony/dependency-injection": "^3.1",
+        "symfony/http-kernel": "^3.1",
+        "tinify/tinify": "^1.2"
+    },
+    "autoload": {
+        "psr-4": { "Tinypng\\Bundle\\": "" }
+    }
+}
