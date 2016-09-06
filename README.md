@@ -27,4 +27,12 @@ $bundles = [
 ];
 ```
 
+Now you can do
+
+```php
+Tinify\fromFile("unoptimized.png")->toFile("optimized.png");
+```
+
+directly without setting the API key.
+
 For usage of the TinyPNG API see [https://github.com/tinify/tinify-php](https://github.com/tinify/tinify-php).
