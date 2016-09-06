@@ -1,6 +1,0 @@
-services:
-    tinypng:
-        class:      Tinify\Tinify
-        factory:    ['Tinify\Tinify', setKey]
-        arguments:  ['%tinypng.api_key%']
-        public:     false
