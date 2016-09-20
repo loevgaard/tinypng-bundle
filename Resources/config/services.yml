@@ -1,6 +1,6 @@
 services:
     tinypng.request_listener:
-        class: Tinypng\EventListener\RequestListener
+        class: Tinypng\Bundle\EventListener\RequestListener
         tags:
             - { name: kernel.event_listener, event: kernel.request }
         calls:
