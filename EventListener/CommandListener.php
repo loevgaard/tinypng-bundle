@@ -4,7 +4,6 @@ namespace Tinypng\Bundle\EventListener;
 use Symfony\Component\Console\Event\ConsoleCommandEvent;
 use Symfony\Component\DependencyInjection\ContainerAwareInterface;
 use Symfony\Component\DependencyInjection\ContainerAwareTrait;
-use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 
 class CommandListener implements ContainerAwareInterface
 {
