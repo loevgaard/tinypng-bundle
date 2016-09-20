@@ -1,0 +1,7 @@
+services:
+    tinypng.request_listener:
+        class: Tinypng\EventListener\RequestListener
+        tags:
+            - { name: kernel.event_listener, event: kernel.request }
+        calls:
+            - [setContainer, ["@service_container"]]
