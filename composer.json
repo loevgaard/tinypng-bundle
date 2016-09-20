@@ -15,6 +15,7 @@
         "symfony/config": "^3.1",
         "symfony/dependency-injection": "^3.1",
         "symfony/http-kernel": "^3.1",
+        "symfony/console": "^3.1",
         "tinify/tinify": "^1.2"
     },
     "autoload": {
