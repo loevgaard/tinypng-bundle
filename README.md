@@ -1,5 +1,7 @@
 # TinyPNG bundle for Symfony
 
+**This bundle is abandoned. Use this [TinyPNG bundle](https://github.com/Setono/TinyPngBundle) instead**
+
 The TinyPNG bundle adds a very simple configuration option in `config.yml` to configure the TinyPNG API.
 
 ## Usage
